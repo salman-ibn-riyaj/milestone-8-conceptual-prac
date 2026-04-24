@@ -121,6 +121,16 @@ const Navbar = () => {
                 SingUp
               </Link>
             </li>
+            <li>
+              <Link
+                className={
+                  pathName === "/dashboard" ? "text-purple-500 underline" : ""
+                }
+                href="/dashboard"
+              >
+                Dashboard
+              </Link>
+            </li>
           </ul>
         </div>
       )}
